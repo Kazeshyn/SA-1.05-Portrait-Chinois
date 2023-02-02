@@ -1,0 +1,223 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+
+}
+
+html,body {
+    width: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+    background-color: rgb(73, 72, 72);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navigationbar {
+
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+
+}
+
+
+
+header {
+
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+}
+
+header div {
+    background-color: rgb(32, 32, 32);
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+    width: 80%;
+    border-bottom-right-radius:15px ;
+    border-bottom-left-radius:15px ;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+div h1 {
+
+    font-family: 'Rubik', sans-serif;
+
+}
+
+div p {
+
+    font-family: 'Mulish', sans-serif;
+
+}
+
+footer {
+
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(32, 32, 32);
+
+}
+
+footer div {
+
+    font-family: 'Rubik', sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    line-height: 100px;
+
+}
+
+form {
+
+    margin: auto;
+    position: relative;
+    top: 17%;
+
+}
+
+input {
+    height: 50px;
+    border-radius: 15px;
+    border: solid 5px black;
+}
+
+textarea {
+    height: 50px;
+    border-radius: 15px;
+    border: solid 5px black;
+}
+
+label {
+
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    font-size: 20px;
+
+}
+
+p.formInfo {
+
+    background-color: white;
+    width: fit-content;
+    margin-top: 15px;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 15px;
+
+}
+
+div.contenueacceuil {
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/acceuil.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0;
+
+}
+
+div.title {
+    position: absolute;
+    top: 35%;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    width: fit-content;
+}
+
+h1.h1 {
+
+    font-size: 5rem;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+h2.h2 {
+
+    font-size: 3.75rem;
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+div.contenueform {
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/acceuil.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0;
+    border-radius: 0;
+
+}
+
+
+div {
+
+    /* border: solid black 1px; */
+    background-color: rgb(230, 230, 230);
+    width: 55%;
+    height: 360px;
+    left: 22%;
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+div.picture {
+    /* border: solid black 1px; */
+    /* background-color: yellow; */
+    top: 25%;
+    width: 25%;
+    height: 279.150px;
+    margin-bottom: auto;
+    margin-left: 15px;
+    display: flex;
+
+}
+
+div.text {
+
+    /* border: solid black 1px; */
+    /* background-color: green; */
+    left: 40%;
+    top: 25%;
+    width: 50%;
+    height: 279.150px;
+    margin-bottom: auto;
+    display: flex;
+    float: right;
+    margin-right: 15px;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    max-height: 279.150px;
+}
+
+p {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}

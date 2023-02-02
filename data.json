@@ -1,0 +1,59 @@
+[
+    {
+        "num": "1",
+        "analogie": "un pays",
+        "valeurAnalogie": "le Japon",
+        "explication": "Car je me pense très lié à la culture asiatique au quotidien tant dans certaines de mes habitudes que dans mes goûts généraux. C’est un pays qui me fascine dans lequel j’aimerai potentiellement travailler/habiter quelques temps.",
+        "image": "./images/analogie1.jpg",
+        "alt":"Carte du japon."
+    },
+    {
+        
+        "num": "2",
+        "analogie": "un jeux-vidéo",
+        "valeurAnalogie": "le jeu osu!",
+        "explication": "Je suis du genre très rythmé ce qui fait qu’osu ! est le jeu parfait pour cette analogie étant donné qu’il s’agit d’un jeu de rythme qui en plus est en majeur partie constitué de J-pop faisant donc lien avec mon analogie du dessus.",
+        "image": "./images/analogie2.png",
+        "alt":"logo du jeu osu!"
+    },
+    {
+        "num": "3",
+        "analogie": "un manga",
+        "valeurAnalogie": "mushoku tensei",
+        "explication": "Mushoku tensei est sûrement mon manga préférer dont je possède tout les volumes, il s’agit d’un manga ou le héros est réincarné dans un autre monde après sa première vie qu’il regrette car il pense l’avoir gâché, il cherche donc à se rattraper avec cette nouvelle chance.",
+        "image": "./images/analogie3.jpg",
+        "alt":"Couverture du premier tome de mushoku tensei."
+    },
+    {
+        "num": "4",
+        "analogie": "un sport",
+        "valeurAnalogie": "badminton",
+        "explication": "Le badminton est le sport que je pratique depuis le plus longtemps ( depuis 8 ans), j’aime ce sport car il est à la fois technique est physique quant à l’endurance demandé (en solo notamment).",
+        "image": "./images/analogie4.jpg",
+        "alt":"Photo badminton"
+    },
+    {
+        "num": "5",
+        "analogie": "une qualité",
+        "valeurAnalogie": "gentillesse",
+        "explication": "Je serai la gentillesse car je passe ma majeur partie de mon temps à aider les autres au lieu de me concentrer sure ce que j'ai à faire, quitte à me restreindre ce qui peut aussi être vu donc comme un défaut.",
+        "image": "./images/analogie5.jpg",
+        "alt":"illustration gentillesse"
+    },
+    {
+        "num": "6",
+        "analogie": "un défaut",
+        "valeurAnalogie": "trop réfléchir",
+        "explication": "Je réfléchis beaucoup en permanence ce qui fait que je peut transformer les plus petits soucis en gros problèmes a mes yeux.",
+        "image": "./images/analogie6.jpg",
+        "alt":"Illustration réfléchir"
+    },
+    {
+        "num": "7",
+        "analogie": "une couleur",
+        "valeurAnalogie": "bleu clair",
+        "explication": "Car le bleu clair m’inspire le calme et le vide ce qui n’est pas pour me déplaire.",
+        "image": "./images/analogie7.jpg",
+        "alt":"bleu clair"
+    }
+]

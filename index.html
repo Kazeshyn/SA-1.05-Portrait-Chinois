@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Appel de la feuille de style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Appel de polices d'écriture -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;1,200&family=Rubik:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Nom de la page -->
+    <title>MEROUANE Idriss - Portrait chinois</title>
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <header>
+        <div class="navigationbar">
+            <div><a href="#acceuil">Accueil</a></div>
+            <div><a href="#a1">1</a></div>
+            <div><a href="#a2">2</a></div>
+            <div><a href="#a3">3</a></div>
+            <div><a href="#a4">4</a></div>
+            <div><a href="#a5">5</a></div>
+            <div><a href="#a6">6</a></div>
+            <div><a href="#a7">7</a></div>
+            <div><a href="#form">Formulaire</a></div>
+        </div>
+    </header>
+    <!-- Page d'accueil -->
+    <section class="acceuil" id="acceuil">
+        <div class="contenueacceuil">
+          <div class="title">
+            <h1 class="h1">Mon portrait chinois,</h1>
+            <h2 class="h2">MEROUANE Idriss</h2>
+          </div>
+        </div>
+    </section>
+    <!-- Partie de la page contenant les analogies -->
+    <section class="analogies">
+        <!-- contenue javascript -->
+    </section>
+    <section class="analogiesPerso">
+
+    </section>
+    <!-- Formulaire -->
+    <section class="form" id="form">
+        <div class="contenueform">
+            <form action="">
+                <label for="analogie">Votre analogie :</label>
+                <br>
+                <input type="text" id="analogie" maxlength="93" style="width: 500px;">
+                <br>
+                <label for="valeurAnalogie">Valeur de votre analogie :</label>
+                <br>
+                <input type="text" id="valeurAnalogie" maxlength="93" style="width: 500px;">
+                <br>
+                <label for="explication">Expliquez pourquoi :</label>
+                <br>
+                <textarea name="explication" id="explication" cols="30" rows="10" maxlength="350" style="width: 500px;"></textarea>
+                <br>
+                <label for="image">Le lien de votre image :</label>
+                <br>
+                <input type="text" id="image" style="width: 500px;" style="width: 500px;">
+                <br>
+                <label for="alt">Texte alternatif de l'image :</label>
+                <br>
+                <input type="text" id="alt" style="width: 500px;">
+                <br>
+                <label for="mail">Votre E-mail :</label>
+                <br>
+                <input type="mail" style="width: 500px;" id="mail">
+                <!-- Bouton d'envoi vers l'api -->
+                <p class="formInfo">Envoyer</p>
+            </form>
+        </div>
+    </section>
+    <!-- Pied de page (mentions légales) -->
+    <footer>
+        <div class="footer">Mentions légales<br><p>Toutes les images utilisées par ce site sont des images libres de droit.<br>La personne responsable du traitement des données de l'API à l'adresse https://perso-etudiant.u-pem.fr/~gambette/portrait/api.php est Philippe Gambette (philippe.gambette@univ-eiffel.fr).<br> Les données sont conservées sur les serveurs de l'université Gustave Eiffel en France.<br>Remerciment spécial à Morgan ZARKA pour avoir aidé au code javascript, merci à Caroline DOUNG de m'avoir aidé pour l'orthographe.</p></div>
+        
+    </footer>
+</body>
+<!-- Appel des fonctions javascript du document -->
+<script src="script.js"></script>
+</html>
